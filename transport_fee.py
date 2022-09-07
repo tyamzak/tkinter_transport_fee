@@ -154,7 +154,7 @@ size_yp = ["60","80","100","120","140","160","170"]
 ##############250#################
 
 import pandas as pd
-
+pd.options.display.precision = 0
 df_chitai_yp = pd.read_csv('yp_chitai.csv',index_col=0,header=0)
 df_chitai_yt = pd.read_csv('yt_chitai.csv',index_col=0,header=0)
 
